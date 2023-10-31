@@ -40,12 +40,12 @@ nav ul li a{
     font-size: 20px;
 }
 
-#form{
+#formas{
     display: flex;
     flex-direction: column;
 }
 
-#form p{
+#formas p{
   width: 1000px;
   margin: 15px;
   text-align: left;
