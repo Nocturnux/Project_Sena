@@ -167,4 +167,25 @@ main div p { font: bold 12px/1.5 arial, helvetica, sans-serif; }
     color: azure;
 }
 
+#mainMerengue{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+
+#texto-pa{
+    width: 30%;
+}
+
+#imgMerengue{
+    width: 30%;
+    margin-top: 7%;
+}
+
+#spanMerengue{
+    font-size: 40px;
+    display: block;
+}
    
