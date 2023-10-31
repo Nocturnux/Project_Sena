@@ -40,24 +40,27 @@ nav ul li a{
     font-size: 20px;
 }
 
-
-
-#texto-principal{
-    width: 30%;
-}
-
-main{
+#cuerpo{
     display: flex;
-    justify-content: space-around;
-    color: white;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
     margin-top: 75px;
 }
 
-main div h1{
-    font-weight: bold;
-   }
 
-main div p { font: bold 12px/1.5 arial, helvetica, sans-serif; }
+
+#cuerpo main div{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+#cuerpo main div p { 
+    font: bold;
+    font-size: medium;
+}
 
 
 
@@ -185,6 +188,34 @@ main div p { font: bold 12px/1.5 arial, helvetica, sans-serif; }
     font-size: 40px;
     display: block;
 }
+
+
+#mainRock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30p;
+    color:rgb(0, 0, 0);
+}
+
+#texto-p{
+    width: 30%;
+}
+
+#imgRock1, #imgRock2{
+    width: 30%;
+    margin-top: 8%;
+}
+#imgRock2{
+    width: 30%;
+    margin-top: 8%;
+}
+
+#spanRock1 , #spanRock2{
+    font-size: 40px;
+    display: block;
+}
+
    
 main.contenido-ppal {
     display: flex;
