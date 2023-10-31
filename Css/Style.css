@@ -188,4 +188,32 @@ nav ul li a{
     font-size: 40px;
     display: block;
 }
+
+
+#mainRock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30p;
+    color:rgb(0, 0, 0);
+}
+
+#texto-p{
+    width: 30%;
+}
+
+#imgRock1, #imgRock2{
+    width: 30%;
+    margin-top: 8%;
+}
+#imgRock2{
+    width: 30%;
+    margin-top: 8%;
+}
+
+#spanRock1 , #spanRock2{
+    font-size: 40px;
+    display: block;
+}
+
    
