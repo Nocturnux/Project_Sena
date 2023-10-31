@@ -40,6 +40,19 @@ nav ul li a{
     font-size: 20px;
 }
 
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form p{
+  width: 1000px;
+  margin: 15px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+}
+
 #cuerpo{
     display: flex;
     justify-content: space-evenly;
@@ -57,10 +70,6 @@ nav ul li a{
     justify-content: space-around;
 }
 
-#cuerpo main div p { 
-    font: bold;
-    font-size: medium;
-}
 
 
 
@@ -172,7 +181,7 @@ nav ul li a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #texto-pa{
@@ -202,6 +211,11 @@ nav ul li a{
     width: 30%;
 }
 
+#fle{
+    display: flex;
+    
+}
+
 #imgRock1, #imgRock2{
     width: 30%;
     margin-top: 8%;
@@ -211,7 +225,7 @@ nav ul li a{
     margin-top: 8%;
 }
 
-#spanRock1 , #spanRock2{
+.spanRock1 , .spanRock2{
     font-size: 40px;
     display: block;
 }
