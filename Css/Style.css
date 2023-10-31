@@ -1,6 +1,6 @@
 *{
     font-family: 'Grenze Gotisch', serif;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Signika Negative',sans-serif;
 }
 
 body{
@@ -186,3 +186,26 @@ main div p { font: bold 12px/1.5 arial, helvetica, sans-serif; }
     display: block;
 }
    
+main.contenido-ppal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+main div span.titulo-salsa {
+    font-size: 70px;
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+    
+}
+
+
+
+main div p.texto-ppal {
+    margin: 0 40px;
+    text-align: justify;
+    color: black;
+    font-size: 88%;
+}
