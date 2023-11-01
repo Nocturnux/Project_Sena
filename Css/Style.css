@@ -13,14 +13,7 @@ nav{
     background-color: o;
 }
 
-nav span{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
+
 
 nav ul{
     display: flex;
@@ -30,65 +23,22 @@ nav ul{
 
 }
 
-nav ul li{
-    margin: 0 10px;
+
+
+#logo{
+    width: 6%;
+    border-radius: 1vw;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-#formas{
+#logo2{
     display: flex;
-    flex-direction: column;
-}
-
-#formas p{
-  width: 1000px;
-  margin: 15px;
-  text-align: left;
-  line-height: 30px;
-  font-size: 20px;
-}
-
-#cuerpo{
-    display: flex;
-    justify-content: space-evenly;
-    color: rgb(0, 0, 0);
-    margin-top: 75px;
-}
-
-
-
-#cuerpo main div{
-    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
-    flex-direction: column;
-    align-content: space-between;
-    justify-content: space-around;
+    font-size: 55px;
+    color: azure;
 }
 
-
-
-
-#Contacto form{
-    display: flex;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    width: 40%;
-    margin: 40px auto;   #auto decide el margin de derecha y izquierda
-}
-
-#Contacto input, select, textarea{
-    border: none;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-
-/* enlaces del menu */
 
 #menu{
     display: flex;
@@ -102,8 +52,8 @@ nav ul li a{
     color:#fff;
     text-decoration:none;
     font-weight:400;
-    font-size:15px;
-    padding:10px;
+    font-size:20px;
+    padding: 5px;
     font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform:uppercase;
     letter-spacing:1px;
@@ -114,7 +64,7 @@ nav ul li a{
    #menu ul li {
     position:relative;
     float:left;
-    margin:0;
+    margin:0 10px;
     padding:0;
    }
    
@@ -155,26 +105,100 @@ nav ul li a{
     display:block;
    }
 
+/* enlaces del menu */
+
+
 #menuDes{
     display:block;
     background:#eeeeee00;
 }
 
-#Portada{
-    width: 40%;
-}
 
-#logo{
-    width: 6%;
-}
-
-#logo2{
+#formas{
     display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 45px;
-    color: azure;
+    flex-direction: column;
 }
+
+#formas p{
+  width: 1000px;
+  margin: 15px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#cuerpos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#cuerpo{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+#cuerpo  h1{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+#cuerpo h2, h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+#cuerpo p{
+    width: 800px;
+    margin: 5px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#Portada{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 38%;
+    margin-top: 75px;
+}
+
+
+
+#Contacto form{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    margin: 40px auto;   #auto decide el margin de derecha y izquierda
+}
+
+#Contacto input, select, textarea{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
 
 #mainMerengue{
     display: flex;
